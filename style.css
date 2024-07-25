@@ -100,7 +100,9 @@ textarea::placeholder{
     transform: translate(0%, -90%);
     border-radius: 30px;
 }
-footer{margin-top: 50px;}
+footer{
+    margin-top: 50px;
+}
 @media (min-width: 1400px){
     .mobile-ves{
         display: none;
