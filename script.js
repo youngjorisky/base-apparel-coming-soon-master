@@ -1,6 +1,6 @@
-const mybutton1 = document.getElementById('myButton1');
+const mybutton = document.getElementById('myButton');
 
-mybutton1.addEventListener('click', function() {
+mybutton.addEventListener('click', function() {
     var email = document.getElementById('input-email').value;
     var errorImage = document.getElementById('error-image');
     
