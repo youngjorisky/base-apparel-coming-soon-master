@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 <body>
   <div class="container">
     <img class="main-logo" src="./images/logo.svg" alt="main-logo">
-    <img src="./images/hero-mobile.jpg" alt="hero image">
+    <img class="mobile-ves" src="./images/hero-mobile.jpg" alt="hero image mobile">
     <div class="lower-body">
       <h1 class="first-statement">
         W E ' R E 
@@ -30,19 +30,21 @@
       </p>
       <div class="input-container">
         <textarea id="input-email" placeholder="Email Address"></textarea>
-        <div class="arrow-container">
-          <img class="arrow" src="./images/icon-arrow.svg">
+        <div id="myButton" class="arrow-container">
+          <img class="arrow" src="./images/icon-arrow.svg" alt="arrow icon">
         </div>
         <div class="cover"></div>
       </div>
+      <img id="error-image" src="./images/icon-error.svg" alt="error" style="display:none; width: 30px; height: 30px;">
     </div>
     <footer>
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Jojo Young</a>.
+        Coded by <a href="https://x.com/young_jojo_99">Jojo Young</a>.
       </p>
     </footer>
   </div>
+  <img class="desktop-ves" src="./images/hero-desktop.jpg" alt="hero image desktop">
   <script src="script.js"></script>
 </body>
 </html>
